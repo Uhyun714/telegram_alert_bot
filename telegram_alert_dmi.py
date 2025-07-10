@@ -104,3 +104,5 @@ if __name__ == "__main__":
     except Exception as e:
         send_telegram_message(f"⚠️ 오류 발생: {e}")
         print(f"[오류] {e}")
+send_telegram_message("🚀 [테스트] 텔레그램 알림이 정상 발생했습니다!")
+
